@@ -11,6 +11,7 @@
 		013192B3195539A700F165B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 013192B2195539A700F165B2 /* main.m */; };
 		013192B7195539A700F165B2 /* MachLearn.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 013192B6195539A700F165B2 /* MachLearn.1 */; };
 		013192BF19553A2900F165B2 /* LinReg.m in Sources */ = {isa = PBXBuildFile; fileRef = 013192BE19553A2900F165B2 /* LinReg.m */; };
+		013192C319553ED600F165B2 /* Matrix.m in Sources */ = {isa = PBXBuildFile; fileRef = 013192C219553ED600F165B2 /* Matrix.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		013192B6195539A700F165B2 /* MachLearn.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = MachLearn.1; sourceTree = "<group>"; };
 		013192BD19553A2900F165B2 /* LinReg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinReg.h; sourceTree = "<group>"; };
 		013192BE19553A2900F165B2 /* LinReg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinReg.m; sourceTree = "<group>"; };
+		013192C119553ED600F165B2 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
+		013192C219553ED600F165B2 /* Matrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +79,7 @@
 		013192B1195539A700F165B2 /* MachLearn */ = {
 			isa = PBXGroup;
 			children = (
+				013192C019553EB700F165B2 /* Matrix */,
 				013192B2195539A700F165B2 /* main.m */,
 				013192B6195539A700F165B2 /* MachLearn.1 */,
 				013192B4195539A700F165B2 /* Supporting Files */,
@@ -91,6 +95,15 @@
 				013192B5195539A700F165B2 /* MachLearn-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		013192C019553EB700F165B2 /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				013192C119553ED600F165B2 /* Matrix.h */,
+				013192C219553ED600F165B2 /* Matrix.m */,
+			);
+			name = Matrix;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +159,7 @@
 			files = (
 				013192BF19553A2900F165B2 /* LinReg.m in Sources */,
 				013192B3195539A700F165B2 /* main.m in Sources */,
+				013192C319553ED600F165B2 /* Matrix.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,14 +7,15 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Matrix.h"
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        Matrix *matrix = [[Matrix alloc] initWithValue:[NSNumber numberWithDouble:2] andRows:2 byColumns:4];
+        [matrix print];
         
     }
     return 0;
