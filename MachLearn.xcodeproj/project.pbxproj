@@ -37,6 +37,7 @@
 		013192BE19553A2900F165B2 /* LinReg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinReg.m; sourceTree = "<group>"; };
 		013192C119553ED600F165B2 /* Matrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Matrix.h; sourceTree = "<group>"; };
 		013192C219553ED600F165B2 /* Matrix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Matrix.m; sourceTree = "<group>"; };
+		01C678BD19575601000D4139 /* my_mat.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = my_mat.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +94,7 @@
 			isa = PBXGroup;
 			children = (
 				013192B5195539A700F165B2 /* MachLearn-Prefix.pch */,
+				01C678BD19575601000D4139 /* my_mat.txt */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -273,6 +275,7 @@
 				013192BC195539A700F165B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
