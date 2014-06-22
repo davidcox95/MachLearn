@@ -4,7 +4,9 @@
 1. Download or Clone this repository
 2. Move Matrix.h and Matrix.m into your project
 3. Move desired algorithm header and implementation files into project
+
 ####Supported Algorithms:
+
 #####Linear Regression (Univariable):
 ```Objective-C
 /*Initialize Linear Regression Object*/
